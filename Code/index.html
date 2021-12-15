@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Scheepsvaartmuseum website</title>
+</head>
+<body>
+  
+    <h1>Scheepsvaartmuseum Amsterdam</h1>
+        <ul class="topnav">
+          <li><a href="index.html">Home</a></li>
+          <time class="Tijden">
+            <a class="Openingstijden">Openingstijden</a>
+            <div class="Openingstijden-content">
+              <!-- WAAROM WERKT A WEL EN P TAG NIET??? -->
+              <a>Maandag - Gesloten</a>
+              <a>Dinsdag - 10.00 t/m 17.00</a>
+              <a>Woensdag - 10.00 t/m 17.00</a>
+              <a>Donderdag - 10.00 t/m 17.00</a>
+              <a>Vrijdag - 10.00 t/m 17.00</a>
+              <a>Zaterdag - 10.00 t/m 17.00</a>
+              <a>Zondag - 10.00 t/m 17.00</a>
+            </div>    
+          </time>
+          <input type="tekst" placeholder="Zoek.." style="float: right;" class="Zoekbar" >
+        </ul>
+            
+    <figure>
+      <img src="img/voc2.jpg" alt="Voc schilderij" class="Achtergrond">
+    </figure>
+
+
+
+
+  <div>
+    <article class="Expositie1"><a href="Exposities/Amsterdam havenstad.html">Amsterdamse havenstad</a></article>
+    <article class="Expositie2"><a href="Exposities/Walvis.html">Het verhaal van de walvis</a></article>
+    <article class="Expositie3"><a href="Exposities/Willem&Zoon.html">Willem van de Velde & Zoon</a></article>
+    <article class="Expositie4"><a href="Exposities/Hoofdgalerij.html">Hoofdgalerij: republiek aan zee</a></article>
+    <h3 class="Expositie5"></h3>
+  </div>
+
+ 
+
+
+  <div class="Overig">
+    <a href="Exposities/exposities.html"><p>Overige Exposities</p></a>
+ </div>
+
+
+ <div class="container">
+  <form action="ERROR/error.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="Voornaam">Voornaam</label>
+      </div>
+      <div class="col-75">
+        <input type="Tekst1" id="fname" name="Voornaam" placeholder="Voornaam">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Achternaam">Achternaam</label>
+      </div>
+      <div class="col-75">
+        <input type="Tekst1" id="Achternaam" name="Achternaam" placeholder="Achternaam">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Land">Land</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="Nederland">Nederland</option>
+          <option value="Belgie">Belgie</option>
+          <option value="Duitsland">Duitsland</option>
+          <option value="Engeland">Engeland</option>
+          <option value="Luxenburg">Luxenburg</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Onderwerp</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="Opmerking" placeholder="Opmerking hier plaatsen" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+
+
+<button id="Knop1" class="Knop1">Contact</button>
+ 
+<div id="Scherm1" class="Scherm">
+
+  <div class="Scherm-Inhoud">
+    <div class="Scherm-Boven">
+      <span class="close">&times;</span>
+      <h2>Contact Formulier</h2>
+    </div>
+    <div class="Scherm-Body">
+      <p>Email: ............</p>
+      <p>Telefoonnummer: ..............</p>
+      <p>We zullen indien er niet word opgenomen zo snel mogelijk terug bellen of een bericht sturen.</p>
+      <h2 class="Klachten">Klachten</h2>
+      <p>Klachten-email: .............</p>
+      <p>Telefoonnummer: .........</p>
+    </div>
+    <div class="Scherm-Onder">
+      <h3></h3>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
